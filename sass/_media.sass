@@ -1,0 +1,468 @@
+@import "bourbon"
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	header
+		.title
+			left: 70px
+			h1
+				font-size: 55px
+			h3
+				font-size: 25px
+	.section2
+		.image-block
+			display: block
+			margin: auto
+			.wrap
+				padding-left: 5px
+				img
+					width: 32%
+	.section4
+		height: 650px
+		.bg
+			height: 650px
+		.block-wrap
+			padding-top: 40px
+			width: 80%
+			.row
+				&:last-child
+					margin-left: 125px
+					margin-top: -135px
+				.item-wrap
+					width: 280px
+					height: 280px
+					.item
+						width: 180px
+						height: 180px
+						img
+							width: 680px
+							max-height: 270px
+							top: -165px
+							left: -135px
+						&.slide
+							width: 380px
+							height: 380px
+							left: 40px
+							top: -98px
+							img
+								top: 23px
+								left: -118px
+								max-height: 270px
+						.info
+							top: 40%
+							left: 10%
+							width: 350px
+							font-size: 13px
+		.cocktail
+			display: none
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	header
+		.menu
+			right: 50px
+		.title
+			h1
+				font-size: 45px
+			h3
+				font-size: 20px
+		.arrow
+			span
+				font-size: 35px
+	.section3
+		height: 600px
+		padding-top: 30px
+		padding-bottom: 50px
+		padding-left: 100px
+		padding-right: 100px
+		.block-wrap
+			.block
+				width: 320px
+				margin-top: 40px
+				.title
+					margin-bottom: 20px
+					line-height: 45px
+					img
+						margin-right: 15px
+						width: 45px
+						height: 45px
+					font-size: 30px
+				.image-block
+					.image-row
+						margin-bottom: 5px
+						&:first-child
+							img
+								height: 130px
+						&:last-child
+							img
+								height: 130px
+				.price-wrap
+					margin-top: 20px
+					margin-bottom: 20px
+					span
+						font-size: 30px
+					.price
+						font-size: 30px
+				.button-wrap
+					button
+						padding: 0 40px 5px 40px
+						font-size: 25px
+						border: 2px solid #fff
+	.section4
+		height: 500px
+		.bg
+			height: 500px
+		.block-wrap
+			padding-top: 10px
+			.row
+				&:last-child
+					margin-left: 100px
+					margin-top: -115px
+				.item-wrap
+					width: 230px
+					height: 230px
+					.item
+						width: 140px
+						height: 140px
+						img
+							width: 600px
+							max-height: 220px
+							top: -153px
+							left: -102px
+						&.slide
+							width: 310px
+							height: 310px
+							left: 40px
+							top: -98px
+							img
+								top: 16px
+								left: -108px
+								max-height: 220px
+						.info
+							top: 40%
+							left: 10%
+							width: 280px
+							font-size: 12px
+	.section5
+		.wrap
+			height: 500px
+			h2, h3
+				font-size: 34px
+			.top
+				margin-top: 20px
+			.bottom
+				bottom: 30px
+		.wrap-close
+			right: 30px
+			top: 20px
+			width: 50px
+			height: 50px
+			span
+				padding-top: 5px
+				font-size: 40px
+		.map
+			height: 500px
+			#gmap_canvas
+				height: 500px
+	footer
+		width: 100%
+		height: 350px
+		.bg
+			position: absolute
+			width: 100%
+			height: 350px
+			z-index: -2
+		.bgwrap
+			position: absolute
+			width: 100%
+			height: 350px
+			background-color: #000
+			opacity: 0.55
+			z-index: -1
+		.block
+			margin: auto
+			padding-top: 60px
+			width: 350px
+			input
+				height: 50px
+				width: 100%
+				border: solid 2px #000
+				margin-top: 25px
+				font-size: 20px
+				padding-left: 30px
+			a
+				height: 50px
+				width: 220px
+				margin-top: 25px
+				font-size: 20px
+				padding-top: 8px
+				span.fa
+					padding-right: 15px
+					padding-left: 15px
+					font-size: 30px
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.section-head
+		font-size: 30px
+		margin-top: 50px
+		margin-bottom: 10px
+	.dash
+		width: 400px
+		height: 4px
+	header
+		.menu
+			right: 30px
+		.title
+			h1
+				font-size: 23px
+			h3
+				padding-left: 25px
+				font-size: 10px
+		.arrow 
+			bottom: 10px
+			span
+				font-size: 30px
+	.section1
+		.slider
+			margin-top: 30px
+		.swiper-button
+			font-size: 40px
+	.section2
+		.image-block
+			.wrap
+				margin-top: 25px
+				margin-bottom: 80px
+	.section3
+		height: auto
+		width: 100%
+		padding-top: 40px
+		padding-left: 40px
+		padding-right: 40px
+		.separator
+			width: 300px
+			height: 2px
+			background-color: #FFF
+			margin: auto
+			margin-bottom: 30px
+			border-radius: 10px
+		.block-wrap
+			width: 100%
+			margin-bottom: 50px
+			&:first-child
+				float: none
+			&:last-child
+				float: none
+			.block-left
+				float: none
+			.block
+				width: 400px
+				margin-top: 40px
+				margin: auto
+				.title
+					margin-bottom: 22px
+					line-height: 50px
+					img
+						height: 45px
+						width: 45px
+						margin-right: 15px
+					font-size: 34px
+					letter-spacing: 6px
+				.image-block
+					.image-row
+						margin-bottom: 5px
+						&:first-child
+							img
+								height: 150px
+						&:last-child
+							img
+								height: 150px
+				.price-wrap
+					margin-top: 15px
+					margin-bottom: 20px
+					span
+						font-size: 27px
+					.price
+						font-size: 30px
+				.button-wrap
+					button
+						padding: 0 40px 5px 40px
+						font-size: 30px
+						border: 2px solid #fff
+						border-radius: 10px
+	.section4
+		height: 1000px
+		.bg
+			height: 1000px
+		.block-wrap
+			padding-top: 10px
+			width: 100%
+			.row
+				&:last-child
+					margin-left: 100px
+					margin-top: 0
+				.item-wrap
+					width: 100%
+					height: 230px
+					.item
+						width: 300px
+						height: 300px
+						right: 0
+						left: 0
+						img
+							width: 100vw
+							max-height: 220px
+							top: 53px
+							left: -102px
+						&.slide
+							width: 310px
+							height: 310px
+							left: 40px
+							top: -98px
+							img
+								top: 16px
+								left: -108px
+								max-height: 220px
+						.info
+							top: 40%
+							left: 10%
+							width: 280px
+							font-size: 12px
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.section-head
+		font-size: 16px
+		margin-top: 50px
+		margin-bottom: 10px
+	.dash
+		width: 200px
+		height: 3px
+	header
+		height: 300px
+		.menu
+				top: 10px
+				right: 0
+				width: 100%
+				a
+					margin-left: 10px
+		.title
+			left: 10px
+			h1
+				font-size: 23px
+			h3
+				padding-left: 25px
+				font-size: 10px
+		.arrow 
+			bottom: 10px
+			span
+				font-size: 30px
+	.section1
+		.slider
+			margin-top: 20px
+			height: 300px
+		.swiper-button
+			font-size: 30px
+	.section2
+		.image-block
+			.wrap
+				margin-top: 20px
+				margin-bottom: 60px
+	.section3
+		padding-top: 30px
+		padding-left: 10px
+		padding-right: 10px
+		.separator
+			width: 230px
+			height: 2px
+			margin-bottom: 30px
+			margin-top: 30px
+		.block-wrap
+			margin-bottom: 0
+			&:first-child
+				float: none
+			&:last-child
+				float: none
+			.block-left
+				float: none
+			.block
+				width: 270px
+				.title
+					margin-bottom: 20px
+					line-height: 40px
+					img
+						height: 40px
+						width: 40px
+						margin-right: 10px
+					font-size: 28px
+				.image-block
+					.image-row
+						margin-bottom: 5px
+						&:first-child
+							img
+								height: 110px
+						&:last-child
+							img
+								height: 110px
+				.price-wrap
+					margin-top: 10px
+					margin-bottom: 15px
+					span
+						font-size: 25px
+					.price
+						font-size: 28px
+				.button-wrap
+					button
+						padding: 0 40px 5px 40px
+						font-size: 25px
+						border: 2px solid #fff
+						border-radius: 10px
+	.section5
+		.wrap
+			height: 350px
+			h2, h3
+				font-size: 20px
+			.top
+				margin-top: 0
+			.bottom
+				bottom: 20px
+		.map
+			height: 350px
+			#gmap_canvas
+				height: 350px
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
